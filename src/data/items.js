@@ -11,23 +11,22 @@ export const items = [
     },
     {
       id: 2,
-      name: "Sahabat Muslim",
-      imageUrl: "../assets/Img/proyecto.png",
+      name: "GitExportApp",
+      imageUrl: "Proyecto",
       status:
-        "A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.",
-      tech: "VueJS 3, Tailwind",
-      github: "https://github.com/rakha-elctrnx/muslim-companion",
+        "El proyecto consiste en una aplicación web que permite a los usuarios buscar y visualizar GIFs animados utilizando la API de Giphy. Los usuarios pueden ingresar palabras clave para encontrar GIFs relacionados y verlos en un formato atractivo y fácil de usar.",
+      tech: "REACT, CSS, HTML5",
+      github: "https://github.com/SergioRamirez06/react-gifs-expert",
       demo: "https://sergioramirez06.github.io/react-gifs-expert/",
     },
     {
       id: 3,
-      name: "SISTEKDES",
-      imageUrl: "sistekdes",
+      name: "Real Madrid",
+      imageUrl: "Proyecto1",
       status:
-        "Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.",
-      tech: "Laravel 9, Bootstrap",
-      github: null,
-      demo: null,
+        "El proyecto consiste en una página web dedicada a los aficionados del Real Madrid, donde se pueden encontrar noticias, estadísticas, información sobre jugadores, y más. Utilizando Bootstrap, la página ofrece un diseño responsivo y atractivo que se adapta a diferentes dispositivos.",
+      github: "https://github.com/SergioRamirez06/Madrid",
+      demo: "https://sergioramirez06.github.io/Madrid/",
     },
     {
       id: 4,

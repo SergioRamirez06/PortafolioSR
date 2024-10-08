@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import {  AboutView, PortafolioView, BlogView, HomeView} from "./view";
+import {  AboutView, PortafolioView, BlogView, HomeView, Contacto} from "./view";
 import { Link, useNavigate } from 'react-router-dom';
 import './assets/css/navbar.css'
 
@@ -53,12 +53,12 @@ export const App = () => {
       </nav>
 
       <div className="md:mt-[100px]">
-        {/* Aquí es donde se renderizarán los componentes de las rutas */}
         <Routes>
           <Route path="/" element={ <HomeView />}/>
           <Route path="/about" element={ <AboutView />}/>
           <Route path="/portafolio" element={ <PortafolioView />}/>
           <Route path="/blog" element={ <BlogView />}/>
+          <Route path="/contacto" element={ <Contacto />}/>
         </Routes>
       </div>
 
@@ -68,7 +68,7 @@ export const App = () => {
           <Link to="/about" className="text-gray-300 hover:text-white">About</Link>
           <Link to="/portafolio" className="text-gray-300 hover:text-white">Portfolio</Link>
           <Link to="/blog" className="text-gray-300 hover:text-white">Blog</Link>
-          <Link to="/home" className="text-gray-300 hover:text-white">sr</Link>
+          <Link to="/contacto" className="text-gray-300 hover:text-white">Contacto</Link>
         </nav>
       </footer>
     </div>

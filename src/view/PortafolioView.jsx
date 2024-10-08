@@ -12,9 +12,9 @@ export const PortafolioView = () => {
       <article data-page="about">
         <header>
           <div className="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
-            <h4>Past Project Experience</h4>
+            <h4>Experiencia pasada en proyectos</h4>
             <h4 className="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-              Explore the projects I've worked on so far
+              Explora los proyectos en los que he trabajado hasta ahora
             </h4>
           </div>
         </header>
@@ -29,7 +29,7 @@ export const PortafolioView = () => {
                       <img
                         alt={item.name}
                         className="drop-shadow-xl rounded rounded-xl"
-                        src={`/img/portfolio-${item.imageUrl}.png`}
+                        src={`../src/assets/Img/${item.imageUrl}.png`}
                         loading="lazy"
                         decoding="async"
                       />

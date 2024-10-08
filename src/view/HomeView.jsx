@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import '../assets/css/homeView.css'
 
 export const HomeView = () => {
@@ -14,7 +14,8 @@ export const HomeView = () => {
     const i = loopNum % toRotate.length;
     const fullTxt = toRotate[i];
 
-    setTxt(prevTxt => isDeleting ? fullTxt.substring(0, prevTxt.length - 1) : fullTxt.substring(0, prevTxt.length + 1));
+    setTxt(prevTxt => isDeleting 
+      ? fullTxt.substring(0, prevTxt.length - 1) : fullTxt.substring(0, prevTxt.length + 1));
 
     let delta = 300 - Math.random() * 100;
 
@@ -71,7 +72,7 @@ export const HomeView = () => {
       <div className="flex justify-center md:justify-start fadein-right">
         <img
           alt="avatar"
-          fetchpriority="high"
+          // fetchpriority="high"
           width="300"
           height="300"
           decoding="async"
